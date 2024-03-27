@@ -50,7 +50,15 @@
 </style>
 </head>
 <body>
-    <video autoplay muted playsinline loop>
+    <!--<video autoplay muted playsinline loop>-->
+	<video
+	class="video player"
+	width="1920"
+	height="1080"
+	controls="controls"
+	controls preload="auto"
+	autoplay="autoplay" loop muted playsinline
+>
         <source src="video/bg1.webm" type="video/webm">
         Your browser does not support the video tag.
     </video>
